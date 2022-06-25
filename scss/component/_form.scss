@@ -1,0 +1,53 @@
+.form-label {
+
+    color: #E9D8A6;
+
+}
+
+#email-success {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 0;
+    color: rgb(79, 221, 79);
+    background-color: rgba(79, 221, 79, 0.3);
+    border: 1px solid rgb(79, 221, 79);
+    border-radius: 5px;
+
+
+}
+
+#email-failed {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 0;
+    color: rgb(221, 79, 79);
+    background-color: rgba(221, 79, 79, 0.3);
+    border: 1px solid rgb(221, 79, 79);
+    border-radius: 5px;
+
+
+}
+
+#success-btn,
+#fail-btn {
+
+    flex-grow: 0;
+    margin-top: -10px;
+    margin-right: 5px;
+    cursor: pointer;
+
+
+}
+
+#email-success h4,
+#email-failed h4 {
+
+
+    flex-grow: 1;
+    text-align: center;
+
+}

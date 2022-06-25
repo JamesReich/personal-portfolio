@@ -6,6 +6,112 @@
   background-color: red;
 }
 
+#skills-slider {
+  color: #E9D8A6;
+  width: 100%;
+}
+
+#skills-slider ul {
+  display: flex;
+}
+
+#skills-slider button {
+  display: none;
+}
+
+#skills-slider > div {
+  text-align: center;
+}
+
+#skills-slider li {
+  display: none;
+}
+
+.skill-container {
+  border: 1px solid #EE9B00;
+  border-top: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin: 0 10px;
+  margin-top: -1px;
+  padding: 5px;
+}
+
+.skills-icon {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 25%;
+}
+
+#skills-banner {
+  background-color: #EE9B00;
+  color: #001219;
+  font-weight: 700;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.form-label {
+  color: #E9D8A6;
+}
+
+#email-success {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 0;
+  color: rgb(79, 221, 79);
+  background-color: rgba(79, 221, 79, 0.3);
+  border: 1px solid rgb(79, 221, 79);
+  border-radius: 5px;
+}
+
+#email-failed {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 0;
+  color: rgb(221, 79, 79);
+  background-color: rgba(221, 79, 79, 0.3);
+  border: 1px solid rgb(221, 79, 79);
+  border-radius: 5px;
+}
+
+#success-btn,
+#fail-btn {
+  flex-grow: 0;
+  margin-top: -10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#email-success h4,
+#email-failed h4 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.accordion-button {
+  margin: 20px 0;
+  padding: 10px 5px;
+  border-bottom: 2px solid #EE9B00;
+  transition: all 0.3s cubic-bezier(0.44, -0.91, 0.61, 1.83);
+}
+
+.accordion-button:hover {
+  border-bottom: 10px solid #EE9B00;
+}
+
+h3 {
+  color: #EE9B00;
+}
+
 * {
   font-family: "Rubik", sans-serif;
 }
@@ -28,6 +134,12 @@ main {
 
 .card-body {
   background-color: #001219;
+}
+
+hr {
+  color: #EE9B00;
+  border: 1px #EE9B00 solid;
+  margin-bottom: 50px;
 }
 
 .navbar {
