@@ -6,22 +6,24 @@
 
 body {
 
-    position: relative;
-    background-color: $dark-color;
-
-
-}
-
-h1 {
-
-    color: $accent-color;
-    margin-left: 320px;
-
+    background-color: #001219
 }
 
 main {
 
-    max-width: 1600px;
-    margin: 0 auto;
+    background-color: #001219;
+
+}
+
+.card-img {
+
+    background-size: cover;
+
+}
+
+.card-body {
+
+
+    background-color: #001219;
 
 }
